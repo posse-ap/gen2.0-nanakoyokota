@@ -1,3 +1,8 @@
-.under {
-    background: linear-gradient(transparent 50%, yellow 50%);
+.under:after {
+    display: block;
+    margin-top: 10px;
+    width: 120px;
+    height: 10px;
+    background-color: #ddeb21;
+    content: '';
 }
