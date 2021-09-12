@@ -1,0 +1,45 @@
+div.item textarea {
+    color: #555;
+    border-style: none;
+    background: #bebebe;
+    font-size: 14px;
+    font-family: "游明朝体","Yu Mincho",YuMincho,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3',"HGS明朝E",'ＭＳ 明朝','MS Mincho',serif !important;
+    width: 480px;
+    height: 323px;
+    padding: 3px;
+    margin-bottom: 1px;
+}
+
+div.item input[type="text"] {
+    color: #555;
+    border-style: none;
+    background: #bebebe;
+    font-size: 14px;
+    font-family: "游明朝体","Yu Mincho",YuMincho,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3',"HGS明朝E",'ＭＳ 明朝','MS Mincho',serif !important;
+    width: 480px;
+    height: 23px;
+    padding: 3px;
+    margin-bottom: 1px;
+}
+
+body {
+    background-color: black;
+  }
+
+.label {
+    color: white;  
+    font-family: "游明朝体","Yu Mincho",YuMincho,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3',"HGS明朝E",'ＭＳ 明朝','MS Mincho',serif !important;  
+}
+
+.radio {
+    color: white;  
+    font-family: "游明朝体","Yu Mincho",YuMincho,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','HiraMinProN-W3',"HGS明朝E",'ＭＳ 明朝','MS Mincho',serif !important;  
+}
+
+.contact_form {
+    display: flex;   
+}
+
+.message{
+  margin-left: 20px;
+}

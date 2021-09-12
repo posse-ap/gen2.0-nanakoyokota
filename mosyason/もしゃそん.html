@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="もしゃそん.css">
+</head>
+<body>
+<div class="contact_form">
+        <div class="info">
+            <div class="item">
+                <p class="label">貴社名</p>
+                <div class="input text"><input name="data[company]" type="text" id="company"></div>				</div>
+            <div class="item">
+                <p class="label">部署名</p>
+                <div class="input text"><input name="data[division]" type="text" id="division"></div>				</div>
+            <div class="item">
+                <p class="label">お名前（必須）</p>
+                <div class="input text"><input name="data[name]" type="text" id="name"></div>				</div>
+            <div class="item">
+                <p class="label">Eメールアドレス／確認入力（必須）</p>
+                <div class="input text"><input name="data[email]" type="text" class="text" id="email"></div>					<div class="input text"><input name="data[email_confirm]" type="text" class="text" id="email_confirm"></div>				</div>
+            <div class="item">
+                <p class="label">お問い合わせの種類（必須）</p>
+                <p class="radio">
+                    <label><input type="radio" name="data[category]" value="制作、見積の依頼">制作、見積のご依頼</label>
+                    <label><input type="radio" name="data[category]" value="パートナーシップについて">パートナーシップについて</label><br>
+                    <label><input type="radio" name="data[category]" value="ポートフォリオ閲覧申込">ポートフォリオ閲覧のお申し込み</label>
+                    <label><input type="radio" name="data[category]" value="その他">その他</label>
+                </p>
+            </div>
+        </div>
+
+        <div class="message">
+             <div class="item">
+                <p class="label">お問い合わせ内容詳細（必須）</p>
+                <div class="input textarea"><textarea name="data[message]" rows="6" cols="30" id="message"></textarea></div>
+             </div>   
+        </div>
+ </div>
+
+</body>
